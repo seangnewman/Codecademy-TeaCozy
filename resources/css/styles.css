@@ -1,0 +1,208 @@
+body {
+  margin: 0 auto;
+  background-color: black;
+  color: #FFF5EE;
+  font-family: Helvitica;
+  font-size: 22px;
+  font-weight: bolder;
+  opacity: 0.9;
+}
+
+
+nav {
+
+  position: fixed;
+  width: 100%;
+
+
+
+}
+
+.nav_box {
+  display: flex;
+  flex-wrap: nowrap;
+  width:  100%;
+  border-bottom: 1px solid seashell;
+   background-color: black;
+
+
+}
+
+.logo {
+  display: inline-flex;
+  width: 80%;
+}
+.logo img{
+  width: auto%;
+  height: 50px;
+}
+.navigation {
+  width:20%;
+
+  align-content: right;
+  justify-content: right;
+  text-align: right;
+
+
+
+}
+
+.navigation ul {
+    display: inline-flex;
+
+    margin-left:auto;
+    margin-right: 10px;
+
+}
+
+.navigation li {
+  display: inline-flex;
+  list-style: none;
+  padding: 0 10px;
+}
+
+.navigation a {
+
+  color: inherit;
+  text-decoration: underline;
+
+}
+.body_container {
+  width: 1200px;
+  margin: 0 auto;;
+  top:369;
+}
+
+.our_mission  {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_tea {
+  width: 1000px;
+  margin: 0 auto;
+  height: auto;
+  padding: 50px;
+
+}
+
+.thumbnails {
+  width: 100%
+  margin: 0 auto;
+  padding: 0;
+  display:inline-block;
+}
+
+.top_tea_row, .bottom_tea_row {
+  display: inline-flex;;
+
+  justify-content: space-around;;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+
+.our_tea img{
+  height: 200px;
+  width: 300px;
+  margin: 0;
+  padding: 10px;
+}
+.our_tea h2, .our_tea h4 {
+  font-weight:bolder;
+  text-align: center;
+
+
+}
+
+.tea_types {
+  padding: 0;
+  margin: 0;
+}
+
+.tea_types h4 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.our_locations  {
+  height: 500px;
+  width: 100%;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: 0 20%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.teacozy {
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.banner {
+  width: 100%;
+  font-weight: bolder;
+  background-color:black;
+}
+
+.franchise_locations {
+    margin: 0 auto;
+    position: relative;;;
+
+
+    align-items: center;;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+
+.locations {
+  height: 280px;
+  width: 280px;
+  background-color: black;
+  opacity: 1;
+  margin: 0 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  padding: 0;
+
+
+}
+
+
+
+.franchise_locations h1 {
+  margin: 0 ;
+  padding: 15px  0;
+  display:flex;;
+  justify-content: center;
+
+}
+
+.our_locations {
+ display: inline-block;;
+ flex-direction: column;
+ justify-content: center;
+
+
+
+}
